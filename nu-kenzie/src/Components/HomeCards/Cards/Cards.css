@@ -1,0 +1,86 @@
+.containerBtnFiltros {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+@media(min-width: 1024px) {
+    .containerFilter {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.containerCards ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.containerCards li {
+    margin-bottom: 32px;
+    width: 100%;
+    text-decoration: none;
+    background: #F8F9FA;
+    border-radius: 4px;
+    list-style: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.entrada {
+    border-left: 5px solid #03B898;
+}
+
+.description {
+    margin-left: 15px;
+    color: #212529;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+} 
+
+.type {
+    margin-left: 15px;
+    color: #5B6166;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px
+}
+
+.containerCards li h6 {
+    color: #212529;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px
+}
+
+.containerCards li button {
+    margin-right: 15px;
+    background: #E9ECEF;
+    border: none;
+    border-radius: 2.46154px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.btnExcluir {
+    background-image: url("../../../../public/trash.png") !important;
+    width: 30px;
+    height: 30px;
+    transform: none !important;
+    background-repeat: no-repeat !important;
+    background-color: #E9ECEF !important;
+    background-position: center !important;
+    cursor: pointer;
+}

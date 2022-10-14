@@ -1,0 +1,27 @@
+
+.containerMoney {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #E9ECEF;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+
+    margin-top: 10px;
+    color: #212529;
+    font-family: 'Nunito';
+    font-weight: 700;
+}
+
+.containerMoney > h3 {
+    margin: 0;
+}
+
+.containerMoney > p {
+    color: #FD377E;
+    margin: 0;
+}

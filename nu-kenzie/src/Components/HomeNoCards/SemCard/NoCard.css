@@ -1,0 +1,31 @@
+.containerNoCard {
+    width: 100%;
+}
+
+.containerNoCard > img {
+    width: 90%;
+    border-radius: 8px;
+}
+
+@media (min-width: 425px) {
+    .NoCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerNoCard {
+        width:70%;
+    }
+}
+
+@media(min-width: 1024px) {
+    .containerNoCard {
+        width: 100%;
+    }
+    
+    .containerNoCard > img {
+        width: 70%;
+        border-radius: 8px;
+    }
+}

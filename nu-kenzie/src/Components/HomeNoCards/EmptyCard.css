@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.containerCards {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito';
+}
+
+.filtros > h2 {
+    color: #212529;
+    font-size: 25px;
+}
+
+.botao#ativo{
+    background: #FD377E;
+    border: 1.4px solid #FD377E;
+    border-radius: 8px;
+
+    color: #FFFFFF;
+    font-family: 'Nunito';
+}
+
+.botao[disabled],
+.botao{
+    background: #E9ECEF;
+    border: 1.4px solid #E9ECEF;
+    border-radius: 8px;
+    color: #343A40;
+    cursor: pointer;
+    width: auto;
+    padding: 10px 14px;
+    font-weight: bold;
+}
+
+@media(min-width: 1024px) {
+    .containerCards {
+        width: 65%;
+    }
+
+    .containerCards> h3 {
+        align-self: flex-start;
+    }
+
+    .filtros{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .NoCard {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
